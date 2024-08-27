@@ -35,7 +35,7 @@ function App() {
         }/>
 
         {/* Website Routes */}
-        <Route path="/" element={
+        <Route path="/custom-feedback-form-builder" element={
           <>
             <Navbar />
             <Carousel />
