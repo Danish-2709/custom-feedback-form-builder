@@ -13,7 +13,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router Basename={process.env.PUBLIC_URL}>
       <Routes>
         {/* Admin Panel Routes */}
         <Route path="/admin/Dashboard" element={
