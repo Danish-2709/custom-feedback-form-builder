@@ -13,7 +13,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router Basename={process.env.PUBLIC_URL}>
+    <Router>
       <Routes>
         {/* Admin Panel Routes */}
         <Route path="/admin/Dashboard" element={
@@ -35,7 +35,7 @@ function App() {
         }/>
 
         {/* Website Routes */}
-        <Route path="/custom-feedback-form-builder" element={
+        <Route path="/" element={
           <>
             <Navbar />
             <Carousel />
