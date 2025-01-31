@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  background-color: #f0f3fb;
+}
+
+/* .app-container {
+  height: 100vh;
+  overflow: auto;
+} */
+
+/* .app {
+  width: 250px;
+}
+.content {
+ flex: 2;
+ overflow: auto;
+} */
+
+nav .navbar-brand{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.card {
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  transition: box-shadow 0.3s ease; 
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.font-size-family{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.categories-wrapper input[type=radio] {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+.categories-wrapper input[type=radio]+label {
+  color: #474d6a;
+  font-size: 14px;
+  display: inline-block;
+  padding: 7px 12px;
+  border: 1px solid #979ec2;
+  margin-right: 10px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.categories-wrapper input[type=radio]:checked+label {
+  border-color: #121224;
+  background-color: #e7e7f1;
+  font-weight: 700;
+  color: #121224;
+}
+
+.fontSize{
+  font-size: 12px;
+}
+
+@media (min-width:991px) {
+  .w-md-50{
+    width: 50% !important;
+  }
+}
